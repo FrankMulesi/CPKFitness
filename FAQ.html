@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, user-scalable=no">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+  <title>CPK Fitness</title>
+  <meta content="CPK Fitness is a gym in Kisii town dedicated to offering the best workout routines and personal training services to help you attain your fitness goals." name="description">
+  <meta content="CPK Fitness is a gym in Kisii town dedicated to offering the best workout routines and personal training services to help you attain your fitness goals." name="keywords">
+  <link rel="stylesheet" href="Style.css">
+  <script src="Script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.3/font/bootstrap-icons.min.css">
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <img src="logo.png" alt="Logo" class="logo">
+        <ul class="nav-links">
+            <li class="nav-item" ><a href="index.html">Home</a> </li>
+            <li class= "nav-item"> <a href="index.html#About"> About</a>  </li>
+            <li class="nav-item"><a href="OurPrograms.html">Our Services</a></li>
+            <li class="nav-item"><a href="Gallery.html">Gallery</a></li>
+            <li class="nav-item"><a href="JoinUs.html">Join Us</a></li>
+            <li class="nav-item"><a href="FAQ.html">FAQs</a></li>
+        </ul>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+    </nav>
+
+
+<!--FAQ-->
+<div class="faq-container">
+    <h1>Frequently Asked Questions</h1>
+    
+    <!-- Our Facilities -->
+    <div class="faq-category">
+        <h2>Our Facilities</h2>
+        
+        <div class="faq-item">
+            <div class="question">
+                <span>What are the opening hours?</span>
+                <button class="toggle-button">▼</button>
+            </div>
+            <div class="answer">
+                <p>CPK fitness Studios opens from 5 AM to 9 PM from Monday to Friday, and 8 AM to 5 PM on Saturdays.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="question">
+                <span>Ar there parking facilities at CPK Fitness Studios?</span>
+                <button class="toggle-button">▼</button>
+            </div>
+            <div class="answer">
+                <p>Yes, there are numerous option for parking both on the stret and inside the Twin Towers gates.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="question">
+                <span>Are your facilities accessible?</span>
+                <button class="toggle-button">▼</button>
+            </div>
+            <div class="answer">
+                <p>The CPK Fitness Studio has an elevator that makes it fully accessible for individuals with disabilities.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="question">
+                <span>Can I get a tour of the CPK gym in Kisii?</span>
+                <button class="toggle-button">▼</button>
+            </div>
+            <div class="answer">
+                <p>Yes, You can contact us to plan a tour and learn more about how to access our services.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="question">
+                <span>Is there a dress code at CPK fitness Studios?</span>
+                <button class="toggle-button">▼</button>
+            </div>
+            <div class="answer">
+                <p>We recommend wearing comfortable clothing and sports shoes to create a suitable training experience for all members..</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Our Programmes -->
+    <div class="faq-category">
+        <h2>Our Programmes</h2>
+        
+        <div class="faq-item">
+            <div class="question">
+                <span>What types of programs does CPK fitness offer?</span>
+                <button class="toggle-button">▼</button>
+            </div>
+            <div class="answer">
+                <p>We offer a range of programs including fitness training, yoga, circuit, kids training,zumba and strength conditioning.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="question">
+                <span>How can I join CPK Fitness gym programmes in Kisii?</span>
+                <button class="toggle-button">▼</button>
+            </div>
+            <div class="answer">
+                <p>You can join a programme by signing up online to get a meeting with our head trainer, Coach Phil, who will give you mor details on a suitable program depending on your goals..</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="question">
+                <span>Are programmes available for all fitness levels?</span>
+                <button class="toggle-button">▼</button>
+            </div>
+            <div class="answer">
+                <p>Yes, the experinced trainers at CPK Fitnss studios offer a variety of training programs that can adapt to pick you up from your fitness level.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="question">
+                <span>Do you offer personal training?</span>
+                <button class="toggle-button">▼</button>
+            </div>
+            <div class="answer">
+                <p>Yes, we offer personalized training sessions tailored to individual needs for medical or personal goal purposes.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Our Subscriptions -->
+    <div class="faq-category">
+        <h2>Our Subscriptions</h2>
+        
+        <div class="faq-item">
+            <div class="question">
+                <span>What subscription plans are available?</span>
+                <button class="toggle-button">▼</button>
+            </div>
+            <div class="answer">
+                <p>We offer daily, monthly, and annual subscription plans.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="question">
+                <span>Can I cancel my subscription anytime?</span>
+                <button class="toggle-button">▼</button>
+            </div>
+            <div class="answer">
+                <p>Yes, you can cancel your subscription anytime. Please refer to our cancellation policy for more details.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    
+</body>
+<!--Footer Section-->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 contact-info">
+                <h5>Contact Us</h5>
+                <p> <i class="bi bi-telephone"></i> Phone: <a href="tel:+254742097910">+254 742 097910</a></p>
+                <p><i class="bi bi-envelope"></i> Email: example@example.com</p>
+                <p><i class="bi bi-geo-alt"></i> Location: Twin Towers, 7th Floor, Kisii Town, Kenya</p>
+            </div>
+            <div class="col-md-6 social-links">
+                <h5>Our Socials</h5>
+                <p><a href="https://www.tiktok.com/@coachphilkenya" target="_blank" class="social-link"><i  class="bi bi-tiktok"></i> TikTok</a></p>
+                <p><a href="https://www.instagram.com/coachphilfitnessstudios?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="social-link"><i class="bi bi-instagram"></i> Instagram</a></p>
+                <p><a href="https://www.facebook.com/profile.php?id=100094246005068" target="_blank" class="social-link"><i class="bi bi-facebook"></i> Facebook</a></p>
+                <p><a href="https://wa.me/254794429876/" target="_blank" class="social-link"><i class="bi bi-whatsapp" ></i> WhatsApp</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+</html>
