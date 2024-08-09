@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, user-scalable=no">
+ <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+ <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+ <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+ <link rel="manifest" href="/site.webmanifest">
+  <title>CPK Fitness Studios</title>
+  <meta content="CPK Fitness is a gym in Kisii town dedicated to offering the best workout routines and personal training services to help you attain your fitness goals." name="description">
+  <meta content="CPK Fitness is a gym in Kisii town dedicated to offering the best workout routines and personal training services to help you attain your fitness goals." name="keywords">
+  <link rel="stylesheet" href="Style.css">
+  <script src="Script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.3/font/bootstrap-icons.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <img src="logo.png" alt="Logo" class="logo">
+        <ul class="nav-links">
+            <li class="nav-item"><a href="index.html">Home</a> </li>
+            <li class= "nav-item"> <a href="#About"> About</a>  </li>
+            <li class="nav-item"><a href="OurPrograms.html">Our Services</a></li>
+            <li class="nav-item"><a href="Gallery.html">Gallery</a></li>
+            <li class="nav-item"><a href="JoinUs.html">Join Us</a></li>
+            <li class="nav-item"><a href="FAQ.html">FAQs</a></li>
+        </ul>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+    </nav>
+  
+<!--Hero-->
+    
+<section class="hero">
+    <div class="video-container">
+        <video autoplay muted loop>
+            <source src="Herovid.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="text-container">
+        <h1>Your Fitness Journey Begins Here</h1>
+        <p>At CPK Fitness Studios Kisii, we believe every workout is a step toward a healthier you. 
+            Our cutting-edge facilities and expert trainers are dedicated to helping you reach your fitness goals with personalized programs that fit your lifestyle. 
+            Experience a transformative journey in a supportive community that motivates you to push your limits at CPK Fitness.</p>
+            <a href="JoinUs.html">
+                <button class="learn-more">Join Us Now</button>
+              </a>
+              
+    </div>
+</section>
+
+<!--Flood Image Section-->
+
+<section class="flood">
+    <div class="image-container large">
+        <div class="text-overlay">A Friendly Management</div>
+        <img src="Friendlymanagement.jpg" alt="Coach Phil Training Kids">
+    </div>
+    <div class="image-container small">
+        <div class="text-overlay">Spacious Facilities</div>
+        <img src="Spaciousfacility.jpg" alt="CPK Fitness Kisii gym area">
+    </div>
+    <div class="image-container large">
+        <div class="text-overlay">A Supportive Community</div>
+        <img src="Supportivecomunity.jpg" alt="CPK Fitness Kisii members">
+    </div>
+    <div class="image-container small">
+        <div class="text-overlay">Expert Trainers</div>
+        <img src="Trainedprofessionals.jpg" alt="CPK Fitness Studios Kisii Trainers">
+    </div>
+</section>
+
+<!--About Us-->
+<section class="about-section" id="About">
+    <div class="image-content">
+        <img src="CoachPhilKenya.webp" alt="Coach Phil at CPK gym ">
+    </div>
+    <div class="text-content">
+        <img src="logo2.png" alt="CPK Fitness Studios Kisii Logo" class="about-logo">
+        <h1>About Us</h1>
+        <p>We are a new holistic style of fitness that <br>combines Cardio, Dance, Strength and Flexibility.</p>
+        <h2>Our Mission</h2>
+        <p> We believe that everyone deserves to feel <br>confident and strong In their own body, 
+            and we <br> are committed to providing the support And <br>guidance necessary to make this a reality.</p>
+        <h2>Our Motto</h2>
+        <p> Body, Mind, And Soul At Work</p>
+    </div>
+</section>
+
+<!--Welcome Section-->
+<section class="welcome-page">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h2>Welcome to CPK Fitness</h2>
+                <p> Coach Phil says, "Welcome to CPK Fitness! I’m thrilled you’re here and ready to embark on this journey. 
+                    Join me and others who are committed to making fitness a part of their daily lives. 
+                    Together, we’ll push boundaries, celebrate achievements, and turn your goals into reality. 
+                    Let’s get started and make every workout count!"</p>
+            </div>
+            <div class="col-md-6">
+                <img src="CoachPhilCPKFitnessKisii.jpg" alt="Coach Phil at CPK gym Kisii" class="img-fluid">
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-3">
+                <div class="service-icon">
+                    <div class="icon-front">
+                        <i class="bi bi-tools"></i>
+                        <p>Best Equipment</p>
+                        <a href="#" class="read-more" onclick="event.preventDefault();" >Read More</a>
+                    </div>
+                    <div class="icon-back">
+                        <p> <b>Best Equipment</b> <br> Experience top-of-the-line equipment designed to elevate your workouts and deliver unmatched results. 
+                            Our modern equipment ensures you have the best tools to reach your fitness goals.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="service-icon">
+                    <div class="icon-front">
+                        <i class="bi bi-geo-alt"></i>
+                        <p>Easy Access</p>
+                        <a href="#" class="read-more" onclick="event.preventDefault();">Read More</a>
+                    </div>
+                    <div class="icon-back">
+                        <p> <b>Easy Access</b> <br> CPK fitness studio is located right at the center of town, making it easy to get your workouts in. 
+                            It is accessible by car, motorbike and on foot to ensure effective service delivery to all gym users.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="service-icon">
+                    <div class="icon-front">
+                        <i class="bi bi-people"></i>
+                        <p>All Your Goals</p>
+                        <a href="#" class="read-more" onclick="event.preventDefault();">Read More</a>
+                    </div>
+                    <div class="icon-back">
+                        <p> <b>All Your Goals</b> <br> Receive personalized support and strategies tailored to achieve every fitness goal you set. 
+                            Whether you’re aiming to lose weight, build muscle, or improve overall wellness, we’ve got you covered.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="service-icon">
+                    <div class="icon-front">
+                        <i class="bi bi-person-check"></i>
+                        <p>Expert Help</p>
+                        <a href="#" class="read-more" onclick="event.preventDefault();">Read More</a>
+                    </div>
+                    <div class="icon-back">
+                        <p><b>Expert Help</b> <br>Benefit from the guidance of seasoned fitness experts who are dedicated to helping you reach your full potential. 
+                        With their knowledge and support, you’ll gain insights and motivation to push your limits</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Trainers Section-->
+<section class="trainers-section">
+    <h2>Ask Me About Our Trainers</h2>
+    <div class="trainer-container">
+        <div class="trainer">
+            <div class="trainer-text">
+                <h3>Certified</h3>
+                <p>At CPK Fitness, our trainers are more than just fitness enthusiasts—they are certified professionals with advanced credentials from leading fitness organizations. 
+                    Choose our certified trainers to experience top-tier guidance and unparalleled support in achieving your health and wellness goals.</p>
+            </div>
+            <img src="Certified.jpg" alt="Coach Phil Kisii Certificate">
+        </div>
+        <div class="trainer">
+            <div class="trainer-text">
+                <h3>Experienced</h3>
+                <p>Our trainers are seasoned professionals with years of experience in the fitness industry, ensuring you receive top-tier guidance and support. 
+                    Their expertise and personalized approach make them the best choice for achieving your fitness goals with confidence and efficiency</p>
+            </div>
+            <img src="CoachPhilInstructorCPK.webp" alt="CPK Fitness Studios and gym Kisii Trainers">
+        </div>
+        <div class="trainer">
+            <div class="trainer-text">
+                <h3>Here For Your Goals</h3>
+                <p>At CPK Fitness, our trainers are dedicated professionals with extensive experience, committed to guiding you through every step of your fitness journey. 
+                    Their unwavering dedication ensures personalized support and effective strategies tailored to help you achieve your goals.</p>
+            </div>
+            <img src="Goals.jpg" alt="CPK Fitness Gym Kisii">
+        </div>
+        <div class="trainer">
+            <div class="trainer-text">
+                <h3>Professional</h3>
+                <p>At CPK Fitness, our trainers are not only experienced but also exemplify the highest standards of professionalism. 
+                    Their commitment to maintaining a respectful and motivating environment ensures that you receive both expert guidance and unwavering support throughout your fitness journey.</p>
+            </div>
+            <img src="Professional.jpg" alt="CPK Fitness Gym Kisii">
+        </div>
+    </div>
+</section>
+
+<!--Equipment Section-->
+<section id="equipment-section">
+    <h1 id="Equipment-heading">Our Facilities</h1>
+    <div class="equipment-grid">
+        <img src="KisiiGymequipment1.jpg" alt="CPK gym Kisii equipment" class="equipment-image" id="image1">
+        <img src="KisiiGymequipment5.jpg" alt="CPK gym Kisii equipment" class="equipment-image" id="image3">
+        <img src="KisiiGymequipment6.jpg" alt="CPK gym Kisii equipment" class="equipment-image" id="image4">
+        <img src="KisiiGymequipment7.jpg" alt="CPK gym Kisii equipment" class="equipment-image" id="image5">
+        <img src="KisiiGymequipment9.jpg" alt="CPK gym Kisii equipment" class="equipment-image" id="image7">
+        <img src="KisiiGymequipment10.jpg" alt="CPK gym Kisii equipment" class="equipment-image" id="image8">
+        <img src="KisiiGymequipment11.jpg" alt="CPK gym Kisii equipment" class="equipment-image" id="image9">
+        <img src="KisiiGymequipment13.jpg" alt="CPK gym Kisii equipment" class="equipment-image" id="image11">
+        <img src="KisiiGymequipment14.jpg" alt="CPK gym Kisii equipment" class="equipment-image" id="image12">
+        <img src="KisiiGymequipment16.jpg" alt="CPK gym Kisii equipment" class="equipment-image" id="image2">
+        <img src="KisiiGymequipment18.jpg" alt="Kisii CPK Fitness gym " class="equipment-image" id="image4">
+        <img src="KisiiGymequipment19.jpg" alt="Kisii CPK Fitness gym " class="equipment-image" id="image5">
+        <img src="KisiiGymequipment21.jpg" alt="Kisii CPK Fitness gym " class="equipment-image" id="image6">
+        <img src="KisiiGymequipment22.jpg" alt="Kisii CPK Fitness gym " class="equipment-image" id="image7">
+        <img src="KisiiGymequipment23.jpg" alt="Kisii CPK Fitness gym " class="equipment-image" id="image8">
+        <img src="KisiiGymequipment24.jpg" alt="Kisii CPK Fitness gym " class="equipment-image" id="image9">
+        <img src="KisiiGymequipment25.jpg" alt="Kisii CPK Fitness gym " class="equipment-image" id="image10">
+        <img src="KisiiGymequipment26.jpg" alt="Kisii CPK Fitness gym " class="equipment-image" id="image11">
+        <img src="KisiiGymequipment17.jpg" alt="Kisii CPK Fitness gym " class="equipment-image" id="image3">
+        <img src="KisiiGymequipment27.jpg" alt="Kisii CPK Fitness gym " class="equipment-image" id="image12">
+</section>
+
+<div id="fullscreen-overlay" class="hidden">
+    <img id="fullscreen-image" src="" alt="Full screen image">
+    <button id="close-button">×</button>
+</div>
+
+
+
+</body>
+
+<!--Footer Section-->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 contact-info">
+                <h5>Contact Us</h5>
+                <p> <i class="bi bi-telephone"></i> Phone: <a href="tel:+254742097910">+254 742 097910</a></p>
+                <p><i class="bi bi-envelope"></i> Email: example@example.com</p>
+                <p><i class="bi bi-geo-alt"></i> Location: Twin Towers, 7th Floor, Kisii Town, Kenya</p>
+            </div>
+            <div class="col-md-6 social-links">
+                <h5>Our Socials</h5>
+                <p><a href="https://www.tiktok.com/@coachphilkenya" target="_blank" class="social-link"><i  class="bi bi-tiktok"></i> TikTok</a></p>
+                <p><a href="https://www.instagram.com/coachphilfitnessstudios?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="social-link"><i class="bi bi-instagram"></i> Instagram</a></p>
+                <p><a href="https://www.facebook.com/profile.php?id=100094246005068" target="_blank" class="social-link"><i class="bi bi-facebook"></i> Facebook</a></p>
+                <p><a href="https://wa.me/254794429876/" target="_blank" class="social-link"><i class="bi bi-whatsapp" ></i> WhatsApp</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+</html>

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, user-scalable=no">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+  <title>CPK Fitness</title>
+  <meta content="CPK Fitness is a gym in Kisii town dedicated to offering the best workout routines and personal training services to help you attain your fitness goals." name="description">
+  <meta content="CPK Fitness is a gym in Kisii town dedicated to offering the best workout routines and personal training services to help you attain your fitness goals." name="keywords">
+  <link rel="stylesheet" href="Style.css">
+  <script src="Script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <img src="logo.png" alt="Logo" class="logo">
+        <ul class="nav-links">
+            <li class="nav-item"><a href="index.html">Home</a> </li>
+            <li class= "nav-item"> <a href="index.html#About"> About</a>  </li>
+            <li class="nav-item"><a href="OurPrograms.html">Our Services</a></li>
+            <li class="nav-item"><a href="Gallery.html">Gallery</a></li>
+            <li class="nav-item"><a href="JoinUs.html">Join Us</a></li>
+            <li class="nav-item"><a href="FAQ.html">FAQs</a></li>
+        </ul>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+    </nav>
+
+<!--Subscription-->
+
+<section class="subscription-section">
+    <div class="service-icon">
+        <i class="fas fa-dumbbell"></i>
+        <h3>Fitness</h3>
+    </div>
+    <div class="service-icon">
+        <i class="fas fa-user"></i>
+        <h3>Bodybuilding</h3>
+    </div>
+    <div class="service-icon">
+        <i class="fas fa-heartbeat"></i>
+        <h3>Aerobics</h3>
+    </div>
+</section>
+
+<section class="fees-section">
+    <div class="fees-container">
+        <div class="fees-column">
+            <h3>Gym Membership Fees</h3>
+            <p>Daily Rates - 250 Ksh </p>
+            <p>Weekly Rates - 1,100 Ksh</p>
+            <p>Monthly Rates - 3,000 Ksh</p>
+            <p>Kids Daily Rates - 200 Ksh</p>
+            
+        </div>
+        <div class="fees-column">
+            <h3>Package Rates</h3>
+            <p>Personalized Session - 5,000 ksh</p>
+            <p>Couple Rates - 5,500 Ksh</p>
+            <p>Corporate Rate (5 People) - 12,500 Ksh</p>
+            <p>Annual Rates - 31,000 Ksh</p>
+            
+        </div>
+    </div>
+</section>
+
+<!--Notes-->
+<section class="notes-section">
+    <div class="notes-container">
+        <div class="notes-text">
+            <h3>Notes</h3>
+            <p>General guidelines about subscription:</p>
+            <ul>
+                <li><i class="fas fa-check-circle"></i> Members can't share subscriptions.</li>
+                <li><i class="fas fa-check-circle"></i> Subscriptions are non-transferable.</li>
+                <li><i class="fas fa-check-circle"></i> Memberships are subject to gym rules and regulations.</li>
+                <li><i class="fas fa-check-circle"></i> Fees must be paid in advance.</li>
+                <li><i class="fas fa-check-circle"></i> Cancellation policies apply to all memberships.</li>
+                <li><i class="fas fa-check-circle"></i> Members must present their ID on entry.</li>
+            </ul>
+        </div>
+        <div class="notes-image">
+            <img src="Image3.jpg" alt="Notes Image">
+        </div>
+    </div>
+</section>
+
+<!--Gym Info-->
+<section class="gym-info">
+    <div class="sessions">
+        <h2>Sessions</h2>
+        <ul>
+            <li></li>
+            <li>Morning Classes: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6AM - 7AM</li>
+            <li>Daytime Classes: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8AM - 12PM</li>
+            <li>Afternoon Classes: &nbsp;&nbsp;&nbsp;2PM - 5PM</li>
+            <li>Evening Classes: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6PM - 7PM</li>
+            <li>Night Classes: &nbsp;&nbsp;&nbsp;&nbsp;7.20PM - 8.30PM </li>
+        </ul>
+    </div>
+    <div class="operational-hours">
+        <h2>Operational Hours</h2>
+        <ul>
+            <li>Opening Hours: &nbsp; 5AM</li>
+            <li>Closing Hours:  &nbsp; &nbsp; &nbsp;9PM</li>
+            <li>Saturday:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8AM - 5PM</li>
+            <li>Sunday:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Closed</li>
+        </ul>
+    </div>
+</section>
+
+<!--Joining Section-->
+
+<section class="joining-section">
+    <h2>Interested In Joining Us?</h2>
+        <form id="whatsappForm" action="https://api.whatsapp.com/send" method="get" target="_blank">
+            <input type="hidden" name="phone" value="254794429876">
+            <div class="form-row">
+                <input type="text" name="full_name" placeholder="Enter Your Name" required>
+                <select name="gender" required>
+                    <option value="" disabled selected>Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="wont_say">Prefer Not To Say</option>
+                </select>
+                <input type="text" name="goal" placeholder="What is your goal?" required>
+            </div>
+            <div class="form-row">
+                <input type="number" name="age" placeholder="What is Your Age?" required>
+                <input type="email" name="email" placeholder="Input Email Address" required>
+                <select name="subscription_plan" required>
+                    <option value="" disabled selected>Subscription Plan</option>
+                    <option value="weekly">Weekly</option>
+                    <option value="monthly">Monthly</option>
+                    <option value="yearly">Yearly</option>
+                </select>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    
+        <script>
+            document.getElementById('whatsappForm').addEventListener('submit', function(event) {
+                event.preventDefault(); // Prevent form submission
+    
+                const form = event.target;
+                const phone = form.phone.value;
+                const fullName = form.full_name.value;
+                const gender = form.gender.value;
+                const goal = form.goal.value;
+                const age = form.age.value;
+                const email = form.email.value;
+                const subscriptionPlan = form.subscription_plan.value;
+    
+                const message = `Full Name: ${fullName}\nGender: ${gender}\nGoal: ${goal}\nAge: ${age}\nEmail: ${email}\nSubscription Plan: ${subscriptionPlan}`;
+                const whatsappUrl = `https://api.whatsapp.com/send?phone=${phone}&text=${encodeURIComponent(message)}`;
+    
+                window.open(whatsappUrl, '_blank');
+            });
+        </script>
+ </section>
+  
+  
+<!--Feedback Section-->  
+<section class="feedback-section">
+    <h2>Talk To Us</h2>
+    <section>
+        <form id="whatsappForm" action="https://api.whatsapp.com/send" method="get" target="_blank">
+            <input type="hidden" name="phone" value="254794429876">
+            <textarea name="message" placeholder="Your feedback or concerns here..." rows="5" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <script>
+        document.getElementById('whatsappForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent form submission
+
+            const form = event.target;
+            const phone = form.phone.value;
+            const message = form.message.value;
+
+            const whatsappUrl = `https://api.whatsapp.com/send?phone=${phone}&text=${encodeURIComponent(message)}`;
+
+            window.open(whatsappUrl, '_blank');
+        });
+    </script>
+
+
+</body>
+
+<!--Footer Section-->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 contact-info">
+                <h5>Contact Us</h5>
+                <p> <i class="bi bi-telephone"></i> Phone: <a href="tel:+254742097910">+254 742 097910</a></p>
+                <p><i class="bi bi-envelope"></i> Email: example@example.com</p>
+                <p><i class="bi bi-geo-alt"></i> Location: Twin Towers, 7th Floor, Kisii Town, Kenya</p>
+            </div>
+            <div class="col-md-6 social-links">
+                <h5>Our Socials</h5>
+                <p><a href="https://www.tiktok.com/@coachphilkenya" target="_blank" class="social-link"><i  class="bi bi-tiktok"></i> TikTok</a></p>
+                <p><a href="https://www.instagram.com/coachphilfitnessstudios?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="social-link"><i class="bi bi-instagram"></i> Instagram</a></p>
+                <p><a href="https://www.facebook.com/profile.php?id=100094246005068" target="_blank" class="social-link"><i class="bi bi-facebook"></i> Facebook</a></p>
+                <p><a href="https://wa.me/254794429876/" target="_blank" class="social-link"><i class="bi bi-whatsapp" ></i> WhatsApp</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+</html>
