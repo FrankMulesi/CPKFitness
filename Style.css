@@ -285,7 +285,7 @@ body {
 @media (max-width: 768px) {
     .flood {
         flex-direction: column;
-        margin-top: 10rem; /* Added separation from hero section */
+        margin-top: 3rem; /* Added separation from hero section */
     }
 
     .image-container {
