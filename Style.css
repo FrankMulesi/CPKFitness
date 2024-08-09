@@ -327,7 +327,7 @@ body {
     animation: slideInLeft 3s forwards;
     background-color: rgb(196, 24, 24);
     border-radius: 15px;
-    font-size: 1.1rem;
+    font-size: 1 rem;
 }
 
 .image-content {
